@@ -1,0 +1,38 @@
+body{
+    background-color: azure;}
+
+    .stopwatch-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .stopwatch{
+        max-width: 500px;
+        background-color: #333333;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 1px 6px rgba(0, 0, 0, );
+    }
+
+    .stopwatch-display{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: antiquewhite;
+    }
+    .btn{
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        outline:none;
+    }
+
+    .btn-stopwatch1{
+        color: green;
+    }
+
+    .btn-stopwatch2{
+        color: red;
+    }
+
+    .btn-stopwatch3{color: yellow;}
